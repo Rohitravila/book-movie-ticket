@@ -1,3 +1,4 @@
+	
 package com.jsp.book_my_ticket;
 
 import org.springframework.boot.SpringApplication;
@@ -9,5 +10,5 @@ public class BookMyTicketApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BookMyTicketApplication.class, args);
 	}
-
 }
+ 
