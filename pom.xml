@@ -76,13 +76,12 @@
             <version>2.0.0</version>
         </dependency>
 
-        <annotationProcessorPaths>
-    <path>
-        <groupId>org.projectlombok</groupId>
-        <artifactId>lombok</artifactId>
-        <version>1.18.42</version>
-    </path>
-</annotationProcessorPaths>
+       <dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.42</version>
+    <scope>provided</scope>
+</dependency>
 
         <!-- 🔧 DevTools -->
         <dependency>
